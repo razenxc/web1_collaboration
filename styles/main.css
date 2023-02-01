@@ -41,7 +41,7 @@ body {
 }
 /* /INTRO */
 
-/*Aboutus*/
+/* About Us */
 .aboutus {
     display: flex;
     justify-content: space-between;
@@ -62,4 +62,4 @@ padding-top: 124px;
     padding-left: 120px;
     padding-top: 124px;
 }
-/* /Aboutus */
+/* /About Us */
