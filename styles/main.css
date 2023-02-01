@@ -9,9 +9,12 @@ body {
 
 /* INTRO */
 .intro {
+    /* background */
     background-image: url(../imgs/intro/background.png);
     height: 758px;
     background-size: cover;
+    background-repeat: no-repeat;
+    /* /background */
 }
 
 .header {
