@@ -21,14 +21,15 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: #FFFFFF;
 }
 
 .header-logo {
     padding: 37px 0 0 120px;
 }
 
-.header-btns {
+/* btns - buttons */
+.navbar-btns {
     display: flex;
     align-items: center;
     padding-right: 100px;
@@ -37,12 +38,73 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
+    line-height: 22px;
 }
 
-.hb-items {
+.nb-items {
     padding-right: 50px;
     text-decoration: none;
 }
+
+.intro-center {
+    padding: 139px;
+    text-align: center;
+
+    font-family: 'Lato';
+    color: #FFFFFF;
+}
+
+.ic-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.ic-subtitile {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.ic-btns {
+    padding: 37px 0 0 0;
+}
+
+.icb-booknow {
+    width: 170px;
+    height: 40px;
+
+    background: #285A43;
+    border-radius: 3px;
+    border: none;
+
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.icb-watchvideo {
+    width: 170px;
+    height: 40px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    border: none;
+
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+}
+
 /* /INTRO */
 
 /* About Us */
@@ -64,7 +126,7 @@ body {
     font-family: Lato;
     font-size: 36px;
     line-height: 50px;
-    
+
     padding-left: 120px;
     padding-top: 124px;
 }
