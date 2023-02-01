@@ -32,7 +32,11 @@ body {
     display: flex;
     align-items: center;
     padding-right: 100px;
-    /* padding-left: 495px; */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .hb-items {
@@ -48,17 +52,19 @@ body {
 }
 
 .text-aboutus{
-padding-right: 120px;
-font-size: 18px;
-line-height: 27px;
-padding-top: 124px;
+    padding-right: 120px;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 124px;
 }
 
 .choose-aboutus {
     width: 480px;
+
     font-family: Lato;
     font-size: 36px;
     line-height: 50px;
+    
     padding-left: 120px;
     padding-top: 124px;
 }
