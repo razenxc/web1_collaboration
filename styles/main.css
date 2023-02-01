@@ -32,7 +32,11 @@ body {
     display: flex;
     align-items: center;
     padding-right: 100px;
-    /* padding-left: 495px; */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .hb-items {
@@ -41,7 +45,7 @@ body {
 }
 /* /INTRO */
 
-/*Aboutus*/
+/* About Us */
 .aboutus {
     display: flex;
     justify-content: space-between;
@@ -57,10 +61,12 @@ body {
 .choose-aboutus {
     color: #285A43;
     width: 480px;
+
     font-family: Lato;
     font-size: 36px;
     line-height: 50px;
+    
     padding-left: 120px;
     padding-top: 124px;
 }
-/* /Aboutus */
+/* /About Us */
