@@ -40,3 +40,27 @@ body {
     text-decoration: none;
 }
 /* /INTRO */
+
+/*Aboutus*/
+.aboutus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-aboutus{
+width: 100%;
+padding-right: 120px;
+font-size: 18px;
+line-height: 27px;
+padding-top: 124px;
+}
+
+.choose-aboutus {
+    width: 480px;
+    font-family: Lato;
+    font-size: 36px;
+    line-height: 50px;
+    padding-left: 120px;
+    padding-top: 124px;
+}
+/* /Aboutus */
