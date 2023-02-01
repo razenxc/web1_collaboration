@@ -11,4 +11,4 @@
 ![Hero](https://user-images.githubusercontent.com/84779107/215985011-a2ec2cf5-0033-48bb-a389-6446eb700eaf.png)
 
 [Kerquis](https://github.com/Kerquis)
-![About Us](https://user-images.githubusercontent.com/84779107/215985318-0fabaaf1-2368-432d-b410-81f5bdb0bceb.png)
+![About Us](https://user-images.githubusercontent.com/84779107/216063892-ff65ddbf-6229-4641-a865-f134a0e3b35c.png)
