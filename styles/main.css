@@ -48,13 +48,14 @@ body {
 }
 
 .text-aboutus{
-padding-right: 120px;
-font-size: 18px;
-line-height: 27px;
-padding-top: 124px;
+    padding-right: 120px;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 124px;
 }
 
 .choose-aboutus {
+    color: #285A43;
     width: 480px;
     font-family: Lato;
     font-size: 36px;
