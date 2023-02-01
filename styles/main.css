@@ -6,8 +6,17 @@ body {
 /* font-family: 'Raleway'; */
 /* font-family: 'Lato'; */
 
+
+/* INTRO */
+.intro {
+    background-image: url(../imgs/intro/background.png);
+    height: 758px;
+    background-size: cover;
+}
+
 .header {
     display: flex;
+    justify-content: space-between;
 }
 
 .header-logo {
@@ -17,6 +26,7 @@ body {
 .header-btns {
     display: flex;
     align-items: center;
+    padding-right: 100px;
     /* padding-left: 495px; */
     
 }
@@ -24,3 +34,4 @@ body {
 .hb-items {
     padding-right: 50px;
 }
+/* /INTRO */
