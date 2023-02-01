@@ -5,6 +5,7 @@ body {
 }
 /* font-family: 'Raleway'; */
 /* font-family: 'Lato'; */
+/* https://via.placeholder.com/105x64 */
 
 
 /* INTRO */
@@ -20,6 +21,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 .header-logo {
@@ -31,10 +33,10 @@ body {
     align-items: center;
     padding-right: 100px;
     /* padding-left: 495px; */
-    
 }
 
 .hb-items {
     padding-right: 50px;
+    text-decoration: none;
 }
 /* /INTRO */
