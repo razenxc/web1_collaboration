@@ -131,4 +131,45 @@ body {
     padding-left: 120px;
     padding-top: 124px;
 }
+.div-aboutus {
+    width: 100%;
+    height: 765px;
+}
 /* /About Us */
+
+/* Kind of Plants */
+.kind-of-plants {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 90px;
+}
+.kind-of-plants-1 {
+    width: 350px;
+    height: 380px;
+    padding-left: 120px;
+    border-radius: 10px;
+}
+.kind-of-plants-2 {
+    width: 350px;
+    height: 380px;
+    background-color: #337A5B;
+    border-radius: 10px;
+}
+.kind-of-plants-3 {
+    width: 350px;
+    height: 380px;
+    padding-right: 120px;
+    border-radius: 10px;
+}
+.h3-king-of-plants {
+    color: #285A43;
+    font-family: 'Lato';
+}
+.h3-white-kind-of-plants {
+    color: #ffffff;
+    font-family: 'Lato';
+}
+/* /Kind of Plants */
