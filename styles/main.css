@@ -44,9 +44,14 @@ body {
 .nb-items {
     padding-right: 50px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .nb-items:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
     width: 150px;
     height: 41px;
 
@@ -97,6 +102,7 @@ body {
     background: #285A43;
     border-radius: 3px;
     border: none;
+    cursor: pointer;
 
     color: #FFFFFF;
     font-family: 'Lato';
@@ -114,6 +120,7 @@ body {
     background: transparent;
     border: 1px solid #FFFFFF;
     border-radius: 3px;
+    cursor: pointer;
 
     color: #FFFFFF;
     font-family: 'Lato';
@@ -169,6 +176,7 @@ body {
     padding-left: 120px;
     border-radius: 10px;
 }
+
 .kind-of-plants-2 {
     width: 350px;
     height: 380px;
