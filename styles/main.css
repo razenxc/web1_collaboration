@@ -46,6 +46,23 @@ body {
     text-decoration: none;
 }
 
+.nb-items:last-child {
+    width: 150px;
+    height: 41px;
+
+
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
 .intro-center {
     padding: 139px;
     text-align: center;
@@ -74,8 +91,8 @@ body {
 }
 
 .icb-booknow {
-    width: 170px;
-    height: 40px;
+    width: 168px;
+    height: 41px;
 
     background: #285A43;
     border-radius: 3px;
@@ -90,12 +107,13 @@ body {
 }
 
 .icb-watchvideo {
-    width: 170px;
+    width: 187px;
     height: 40px;
+    margin-left: 13px;
 
+    background: transparent;
     border: 1px solid #FFFFFF;
     border-radius: 3px;
-    border: none;
 
     color: #FFFFFF;
     font-family: 'Lato';
@@ -104,7 +122,6 @@ body {
     font-size: 14px;
     line-height: 120%;
 }
-
 /* /INTRO */
 
 /* About Us */
