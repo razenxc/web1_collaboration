@@ -138,6 +138,8 @@ body {
     justify-content: space-between;
 }
 
+/* text */
+
 .text-aboutus{
     font-size: 18px;
     line-height: 27px;
@@ -152,15 +154,17 @@ body {
     color: #285A43;
     width: 480px;
 
-    font-family: Lato;
-    font-style: normal;
+    font-family: 'Lato';
     font-size: 36px;
     line-height: 50px;
     letter-spacing: 0.04em;
+    
 
     padding-left: 120px;
     padding-top: 124px;
 }
+
+/* /text */
 
 .div-aboutus {
     width: 100%;
@@ -218,6 +222,9 @@ body {
     color: #285A43;
 
     font-family: 'Lato';
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
 
     padding-left: 50px;
 }
@@ -226,6 +233,9 @@ body {
     color: #ffffff;
 
     font-family: 'Lato';
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
 
     padding-left: 50px;
 }
@@ -236,10 +246,12 @@ body {
 
 .text-kind-of-plants {
     padding-left: 50px;
+    opacity: 0.8;
 }
 
 .white-text-kind-of-plants {
     color: #FFFFFF;
+    opacity: 0.8;
 
     padding-left: 50px;
 }
