@@ -378,19 +378,97 @@ body {
 
 .div-excellence {
     display: flex;
-
-    height: 880px;
-}
-.image-excellence {
-    
 }
 .block-excellence {
     display: flex;
     flex-wrap: wrap;
 }
-.div-text-excellence {
-    width: 360px;
-    height: 380px;
+
+/* h3, image and p */
+
+.h3-Quality-Product {
+    padding-left: 68px;
+}
+.h3-Always-Fresh {
+    padding-left: 57px;
+}
+.h3-Work-Smart {
+    padding-left: 68px;
+}
+.h3-Excelent-Service {
+    padding-left: 57px;
+}
+.p-Quality-Product {
+    padding-left: 68px;
+}
+.p-Always-Fresh {
+    padding-left: 57px;
+}
+.p-Work-Smart {
+    padding-left: 68px;
+}
+.p-Excelent-Service {
+    padding-left: 57px;
+}
+.image-Quality-Product {
+    padding-left: 52px;
+}
+.image-Always-Fresh {
+    padding-left: 34px;
+}
+.image-Work-Smart {
+    padding-left: 52px;
+}
+.image-Excelent-Service {
+    padding-left: 34px;
 }
 
+/* /h3, image and p */
+
+/* Blocks */
+
+.Quality-Product {
+    width: 360px;
+    height: 380px;
+
+    background: #FCFCFC;
+}
+.Always-Fresh {
+    width: 360px;
+    height: 380px;
+
+    background: #F8F8F8;
+}
+.Work-Smart {
+    width: 360px;
+    height: 380px;
+
+    background: #FCFCFC;
+}
+.Excelent-Service {
+    width: 360px;
+    height: 380px;
+
+    background: #F8F8F8;
+}
+
+/* /Blocks */
+
+.block-excellence h3 {
+    color: #285A43;
+    font-family: 'Lato';
+
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 28px;
+}
+.block-excellence p {
+    color: #121212;
+    font-family: 'Raleway';
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+} 
 /* /excellence */
