@@ -283,7 +283,9 @@ body {
 }
 
 .wwo-products-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
     padding: 0 120px 120px 120px;
     justify-content: center;
 }
@@ -291,17 +293,19 @@ body {
 .wwop-item {
     display: block;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
     background-color: rgb(255, 255, 255);
     width: 280px;
 
-    padding-right: 27px;
-    padding-bottom: 25px;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 27px;
+    margin-bottom: 25px;
 
     font-family: 'Lato';
 }
 
 .wwop-i-img {
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0 0;
 }
 
 /* .wwop-i-favourite {
