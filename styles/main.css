@@ -258,8 +258,8 @@ body {
 /* /text */
 
 .image-king-of-plants {
-    padding-left: 30px;
-    padding-top: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 /* /Kind of Plants */
@@ -390,8 +390,9 @@ body {
     display: flex;
 }
 .block-excellence {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
 }
 
 /* h3, image and p */
@@ -421,16 +422,16 @@ body {
     padding-left: 57px;
 }
 .image-Quality-Product {
-    padding-left: 52px;
+    margin-left: 52px;
 }
 .image-Always-Fresh {
-    padding-left: 34px;
+    margin-left: 34px;
 }
 .image-Work-Smart {
-    padding-left: 52px;
+    margin-left: 52px;
 }
 .image-Excelent-Service {
-    padding-left: 34px;
+    margin-left: 34px;
 }
 
 /* /h3, image and p */
@@ -481,4 +482,7 @@ body {
     line-height: 24px;
     opacity: 0.8;
 } 
+.block-excellence img {
+    margin-top: 54px;
+}
 /* /excellence */
