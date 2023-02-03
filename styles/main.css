@@ -306,6 +306,8 @@ body {
 
 .wwop-i-img {
     border-radius: 10px 10px 0 0;
+    width: 280px;
+    height: 250px;
 }
 
 /* .wwop-i-favourite {
@@ -316,7 +318,7 @@ body {
 /* <img class="wwop-i-favourite" src="imgs/products/Love0.png"> */
 
 .wwop-i-title {
-    padding: 10px 45px 5px 24px;
+    padding: 10px 0 5px 24px;
 
     font-family: 'Lato';
     font-style: normal;
@@ -344,7 +346,7 @@ body {
 }
 
 .wwop-i-cost {
-    padding: 0 86px 10px 0;
+    padding: 0 0 10px 0;
 
     font-style: normal;
     font-weight: 700;
@@ -355,12 +357,13 @@ body {
 .wwop-i-buynow {
     position: relative;
     bottom: 13px;
+    left: 86px;
     width: 98px;
     height: 33px;
 
-    background: #337A5B;
+    background: #FFFFFF;
     border-radius: 3px;
-    border: none;
+    border: 1px solid rgba(51, 122, 91, 0.6);
     cursor: pointer;
 
     font-family: 'Lato';
@@ -369,7 +372,14 @@ body {
     font-size: 12px;
     line-height: 140%;
 
+    color: #337A5B;
+    
+    transition: background 0.3s linear;
+}
+
+.wwop-i-buynow:hover {
     color: #FFFFFF;
+    background-color: #337A5B;
 }
 
 /* /Products - What We Offer To You*/
