@@ -283,30 +283,88 @@ body {
 }
 
 .wwo-products-list {
-    padding: 0 120px 120px;
+    display: flex;
+    padding: 0 120px 120px 120px;
+    justify-content: center;
 }
 
 .wwop-item {
     display: block;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     width: 280px;
+
+    padding-right: 27px;
+    padding-bottom: 25px;
+
+    font-family: 'Lato';
 }
 
 .wwop-i-img {
     border-radius: 10px 10px 0px 0px;
 }
 
-.wwop-i-title {
+/* .wwop-i-favourite {
+    position: relative;
+    bottom: 235px;
+    left: 233px;
+} */
+/* <img class="wwop-i-favourite" src="imgs/products/Love0.png"> */
 
+.wwop-i-title {
+    padding: 10px 45px 5px 24px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 140%;
+    color: #337A5B;
+}
+
+.wwop-i-underTitle {
+    display: flex;
 }
 
 .wwop-i-oldCost {
+    padding: 0 7px 10px 24px;
 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #121212;
+    opacity: 0.5;
+
+    text-decoration-line: line-through;
 }
 
 .wwop-i-cost {
-    
+    padding: 0 86px 10px 0;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+.wwop-i-buynow {
+    position: relative;
+    bottom: 13px;
+    width: 98px;
+    height: 33px;
+
+    background: #337A5B;
+    border-radius: 3px;
+    border: none;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 140%;
+
+    color: #FFFFFF;
 }
 
 /* /Products - What We Offer To You*/
