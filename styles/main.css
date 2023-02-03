@@ -357,6 +357,7 @@ body {
     background: #337A5B;
     border-radius: 3px;
     border: none;
+    cursor: pointer;
 
     font-family: 'Lato';
     font-style: normal;
