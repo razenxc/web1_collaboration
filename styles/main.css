@@ -258,8 +258,8 @@ body {
 /* /text */
 
 .image-king-of-plants {
-    padding-left: 30px;
-    padding-top: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 /* /Kind of Plants */
@@ -388,19 +388,101 @@ body {
 
 .div-excellence {
     display: flex;
-
-    height: 880px;
-}
-.image-excellence {
-    
 }
 .block-excellence {
-    display: flex;
-    flex-wrap: wrap;
-}
-.div-text-excellence {
-    width: 360px;
-    height: 380px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
 }
 
+/* h3, image and p */
+
+.h3-Quality-Product {
+    padding-left: 68px;
+}
+.h3-Always-Fresh {
+    padding-left: 57px;
+}
+.h3-Work-Smart {
+    padding-left: 68px;
+}
+.h3-Excelent-Service {
+    padding-left: 57px;
+}
+.p-Quality-Product {
+    padding-left: 68px;
+}
+.p-Always-Fresh {
+    padding-left: 57px;
+}
+.p-Work-Smart {
+    padding-left: 68px;
+}
+.p-Excelent-Service {
+    padding-left: 57px;
+}
+.image-Quality-Product {
+    margin-left: 52px;
+}
+.image-Always-Fresh {
+    margin-left: 34px;
+}
+.image-Work-Smart {
+    margin-left: 52px;
+}
+.image-Excelent-Service {
+    margin-left: 34px;
+}
+
+/* /h3, image and p */
+
+/* Blocks */
+
+.Quality-Product {
+    width: 360px;
+    height: 380px;
+
+    background: #FCFCFC;
+}
+.Always-Fresh {
+    width: 360px;
+    height: 380px;
+
+    background: #F8F8F8;
+}
+.Work-Smart {
+    width: 360px;
+    height: 380px;
+
+    background: #F8F8F8;
+}
+.Excelent-Service {
+    width: 360px;
+    height: 380px;
+
+    background: #FCFCFC;
+}
+
+/* /Blocks */
+
+.block-excellence h3 {
+    color: #285A43;
+    font-family: 'Lato';
+
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 28px;
+}
+.block-excellence p {
+    color: #121212;
+    font-family: 'Raleway';
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+} 
+.block-excellence img {
+    margin-top: 54px;
+}
 /* /excellence */
