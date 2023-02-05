@@ -385,8 +385,7 @@ body {
 /* /Products - What We Offer To You*/
 
 /* excellence */
-
-.div-excellence {
+.div1-excellence {
     display: flex;
 }
 .block-excellence {
@@ -484,5 +483,19 @@ body {
 } 
 .block-excellence img {
     margin-top: 54px;
+}
+
+/* circle */
+.circle {
+    fill: white;
+    stroke: black;
+    background: rgba(255, 255, 255, 0.9);
+    stroke-width: 0.1875em;
+}
+.div-circle {
+    position: relative;
+
+    top: -330px;
+    left: -310px;
 }
 /* /excellence */
