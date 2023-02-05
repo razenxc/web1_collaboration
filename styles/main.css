@@ -1,21 +1,37 @@
-body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-}
 /* font-family: 'Raleway'; */
 /* font-family: 'Lato'; */
 /* https://via.placeholder.com/105x64 */
 
+/* Tags Styles */
+body {
+    margin: 0;   
+    height: 100%;
+}
+
+section {
+    width: 100%;
+}
+
+/* Size parts of page*/
+.intro,
+.div-aboutus,
+.kind-of-plants,
+.what-we-offer,
+.div1-excellence {
+    width: 1440px;
+    margin: 0 auto;
+}
 
 /* INTRO */
 .intro {
-    /* background */
-    background-image: url(../imgs/intro/background.png);
     height: 758px;
+}
+
+.section--intro {
+    background-image: url(../imgs/intro/background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    /* /background */
+    background-position: bottom;
 }
 
 .header {
