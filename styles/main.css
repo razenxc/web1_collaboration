@@ -529,3 +529,85 @@ section {
 .og-i-row2 {padding-right: 10px;}
 .og-i-rowTop {padding-bottom: 6px;}
 /* ./gallery */
+
+/* What do they say about us */
+
+.wdts {
+    height: 624px;
+    margin-top: 31px;
+}
+.h2-wdts {
+    color: #285A43; 
+    font-family: 'Lato';
+    
+    text-align: center;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+
+}
+
+/* divs and blocks */
+
+.div-wdts {
+    width: 360px;
+    height: 330px;
+
+    background: #F8F8F8;
+    border-radius: 5px;
+}
+.block-wdts {
+    display: flex;
+    justify-content: space-around;
+}
+.div-h3-wdts {
+    display: flex;
+}
+
+/* /divs and blocks */
+
+/* img, h3 and p */
+
+.wdts img {
+    margin-left: 44px;
+    margin-top: 40px;
+
+}
+.wdts h3 {
+    color: #285A43;
+    font-family: 'Lato';
+
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 28px;
+
+    margin-left: 20px;
+    margin-top: 57px;
+}
+.wdts p {
+    font-family: 'Raleway';
+    color: #121212;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+}
+.wtds-p-1 {
+    margin-left: 44px;
+    margin-top: 31px;
+}
+.wtds-p-2 {
+    margin-left: 44px;
+    margin-top: 39px;
+}
+.wtds-p-3 {
+    margin-left: 54px;
+    margin-top: 39px;
+}
+.all1 {
+    padding-top: 89px;
+}
+/* /img, h3 and p */
+
+/* /What do they say about us */
