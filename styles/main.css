@@ -499,34 +499,7 @@ section {
 }
 
 /* circle */
-.circle {
-    fill: white;
-    stroke: none;
-    background: rgba(255, 255, 255, 0.9);
-    stroke-width: 0.1875em;
-}
-.div-circle {
-    position: relative;
 
-    top: -330px;
-    left: -310px;
-
-}
-.line {
-}
-.line::before {
-    content: '';
-    background-color: black;
-    height: 1.5px;
-    position: relative;
-    left: 50%;
-    width: 7px;
-    /* margin-left: -3px;
-    top: 0;
-
-    margin-left: -171px;
-    margin-top: -5px; */
-}
 /* /excellence */
 
 /* gallery */
