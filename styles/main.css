@@ -662,10 +662,8 @@ section {
     font-size: 32px;
     line-height: 150%;
     color: #FFFFFF;
-}
 
-.subscribeMailing-input {
-    /* padding: 152px 100px 200px 0; */
+    padding: 128px 87px 128px 101px;
 }
 
 .subMailing-i-email {
@@ -676,6 +674,8 @@ section {
     border: 1px solid #FFFFFF;
     backdrop-filter: blur(2.5px);
     border-radius: 5px;
+
+    margin: 152px 25px 200px 0;
 }
 
 .subMailing-i-submit {
@@ -694,7 +694,7 @@ section {
     line-height: 150%;
     color: #FFFFFF;
     
-    margin-left: 25px;
+    margin: 152px 100px 200px 0;
 }
 /* ./Subscribe Mailing */
 
