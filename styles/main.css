@@ -564,7 +564,21 @@ section {
 .div-h3-wdts {
     display: flex;
 }
-
+.wdts-1 {
+    background-image: url(../imgs/wtds/Testimonial.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.wdts-2 {
+    background-image: url(../imgs/wtds/Testimonial2.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.wdts-3 {
+    background-image: url(../imgs/wtds/Testimonial3.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
 /* /divs and blocks */
 
 /* img, h3 and p */
