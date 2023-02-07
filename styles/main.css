@@ -644,6 +644,9 @@ section {
     display: flex;
     height: 400px;
 
+}
+
+.section--subscribeMailing {
     background-image: url(../imgs/subscribemailing/background.png);
     background-size: cover;
     background-repeat: no-repeat;
