@@ -564,30 +564,35 @@ section {
 .div-h3-wdts {
     display: flex;
 }
+/* /divs and blocks */
+
+/* img, h3 and p */
+
 .wdts-1 {
     background-image: url(../imgs/wtds/Testimonial.png);
+
     background-position: right bottom;
     background-repeat: no-repeat;
 }
 .wdts-2 {
     background-image: url(../imgs/wtds/Testimonial2.png);
+
     background-position: right bottom;
     background-repeat: no-repeat;
 }
 .wdts-3 {
     background-image: url(../imgs/wtds/Testimonial3.png);
+
     background-position: right bottom;
     background-repeat: no-repeat;
 }
-/* /divs and blocks */
-
-/* img, h3 and p */
 
 .wdts img {
     margin-left: 44px;
     margin-top: 40px;
 
 }
+
 .wdts h3 {
     color: #285A43;
     font-family: 'Lato';
@@ -599,6 +604,7 @@ section {
     margin-left: 20px;
     margin-top: 57px;
 }
+
 .wdts p {
     font-family: 'Raleway';
     color: #121212;
@@ -608,21 +614,36 @@ section {
     line-height: 24px;
     opacity: 0.8;
 }
+
 .wtds-p-1 {
     margin-left: 44px;
     margin-top: 31px;
 }
+
 .wtds-p-2 {
     margin-left: 44px;
     margin-top: 39px;
 }
+
 .wtds-p-3 {
     margin-left: 54px;
     margin-top: 39px;
 }
+
 .all1 {
     padding-top: 89px;
 }
+
 /* /img, h3 and p */
 
 /* /What do they say about us */
+
+
+
+
+
+/* Interesting blog to read */
+
+
+
+/* /Interesting blog to read */
