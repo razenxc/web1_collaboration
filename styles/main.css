@@ -19,7 +19,8 @@ section {
 .what-we-offer,
 .div1-excellence,
 .ourgallery,
-.wdts {
+.wdts,
+.subscribeMailing {
     width: 1440px;
     margin: 0 auto;
 }
@@ -638,6 +639,61 @@ section {
 
 /* /What do they say about us */
 
+/* Subscribe Mailing */
+.subscribeMailing {
+    display: flex;
+    height: 400px;
+
+    background-image: url(../imgs/subscribemailing/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.subscribeMailing-title {
+    /* padding: 128px 24px 128px 101px; */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.subscribeMailing-input {
+    /* padding: 152px 100px 200px 0; */
+}
+
+.subMailing-i-email {
+    width: 475px;
+    height: 48px;
+
+    background: rgba(217, 217, 217, 0.03);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(2.5px);
+    border-radius: 5px;
+}
+
+.subMailing-i-submit {
+    width: 145px;
+    height: 48px;
+
+    background: #285A43;
+    backdrop-filter: blur(2.5px);
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    
+    margin-left: 25px;
+}
+/* ./Subscribe Mailing */
 
 
 
