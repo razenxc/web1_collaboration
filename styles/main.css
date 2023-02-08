@@ -714,17 +714,29 @@ section {
 
 
 /* Interesting blog to read */
+
+/* blocks */
+
 .ibtr {
     height: 848px;
+
+    padding-top: 123px;
 }
+
 .div-ibtr {
     display: flex;
     justify-content: space-around;
 }
+
 .block-ibtr {
     width: 360px;
     height: 520px;
 }
+
+/* /blocks */
+
+/* headlines, paragraphes and images */
+
 .ibtr h2 {
     font-family: 'Lato';
     color: #285A43;
@@ -734,6 +746,67 @@ section {
 
     text-align: center;
 }
+
+.ibtr h3 {
+    font-family: 'Lato';
+    color: #285A43;
+    
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.ibtr p {
+    font-family: 'Raleway';
+    color: #121212; 
+
+    line-height: 24px;
+}
+
+.date {
+    font-family: 'Raleway';
+    color: rgba(18, 18, 18, 0.8);
+
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+
+    padding-left: 8px;
+}
+
+.btr {
+    display: flex;
+    margin-top: 20px;
+}
+
+.read-more {
+    font-family: 'Lato';
+    color: #285A43;
+
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+
+    margin-left: 100px;
+}
+
+.arrow {
+    margin-left: 9px;
+    margin-top: 6px;
+}
+
+.btr-p1 {
+    margin-top: -10px;
+}
+
+.btr-p2 {
+    margin-top: 44px;
+}
+.btr-p3 {
+    margin-top: 41px;
+}
+
+/* headlines, paragraphes and images */
+
 /* /Interesting blog to read */
 
 /* footer */
