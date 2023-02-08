@@ -1,4 +1,31 @@
 body {
     margin: 0;
-    background-color: ;
+    background-color: #285A43;
+}
+
+.title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+
+    padding: 60px 0 0 60px;
+}
+
+.backButton {
+    height: 20px;
+    width: 100px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #6797dd;
+
+    text-decoration: none;
+
+    padding: 10px 0 0 60px;
 }
