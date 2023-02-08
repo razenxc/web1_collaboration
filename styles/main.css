@@ -644,7 +644,7 @@ section {
 .subscribeMailing {
     display: flex;
     height: 400px;
-
+    justify-content: space-between;
 }
 
 .section--subscribeMailing {
@@ -664,7 +664,7 @@ section {
     line-height: 150%;
     color: #FFFFFF;
 
-    padding: 128px 87px 128px 101px;
+    padding: 128px 87px 128px 100px;
 }
 
 .subMailing-i-email {
@@ -676,6 +676,16 @@ section {
     backdrop-filter: blur(2.5px);
     border-radius: 5px;
 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+
+    color: #FFFFFF;
+
+    padding-left: 25px;
     margin: 152px 25px 200px 0;
 }
 
