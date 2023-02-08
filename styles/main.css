@@ -21,21 +21,22 @@ section {
 .ourgallery,
 .wdts,
 .subscribeMailing,
-.ibtr {
+.ibtr,
+.footer {
     width: 1440px;
     margin: 0 auto;
 }
 
 /* INTRO */
-.intro {
-    height: 758px;
-}
-
 .section--intro {
     background-image: url(../imgs/intro/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+}
+ 
+.intro {
+    height: 758px;
 }
 
 .header {
@@ -641,17 +642,17 @@ section {
 /* /What do they say about us */
 
 /* Subscribe Mailing */
-.subscribeMailing {
-    display: flex;
-    height: 400px;
-    justify-content: space-between;
-}
-
 .section--subscribeMailing {
     background-image: url(../imgs/subscribemailing/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+}
+ 
+.subscribeMailing {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
 }
 
 .subscribeMailing-title {
@@ -736,5 +737,52 @@ section {
 /* /Interesting blog to read */
 
 /* footer */
+.section--footer {
+    background-image: url(../imgs/footer/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
+.footer {
+    height: 374px;
+
+    color: #FFFFFF;
+}
+
+.footer-title {
+    padding: 75px 0 35px 0;
+    text-align: center;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+.footer-socialLinks {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 573px 35px;
+}
+
+.footer-socL-item {cursor: pointer;}
+
+.footer-navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 395px 64px;   
+}
+
+.footer-nB-items {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
 /* ./footer */
