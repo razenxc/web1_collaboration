@@ -20,7 +20,8 @@ section {
 .div1-excellence,
 .ourgallery,
 .wdts,
-.subscribeMailing {
+.subscribeMailing,
+.ibtr {
     width: 1440px;
     margin: 0 auto;
 }
@@ -702,7 +703,24 @@ section {
 
 
 /* Interesting blog to read */
+.ibtr {
+    height: 848px;
+}
+.div-ibtr {
+    display: flex;
+    justify-content: space-around;
+}
+.block-ibtr {
+    width: 360px;
+    height: 520px;
+}
+.ibtr h2 {
+    font-family: 'Lato';
+    color: #285A43;
 
+    font-size: 36px;
+    line-height: 50px;
 
-
+    text-align: center;
+}
 /* /Interesting blog to read */
