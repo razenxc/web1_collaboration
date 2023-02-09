@@ -34,7 +34,7 @@ section {
     background-repeat: no-repeat;
     background-position: bottom;
 }
- 
+
 .intro {
     height: 758px;
 }
@@ -283,6 +283,7 @@ section {
 /* /Kind of Plants */
 
 /* Products - What We Offer To You*/
+
 .what-we-offer {
     padding-top: 120px;
     font-family: 'Lato';
@@ -403,6 +404,7 @@ section {
 /* /Products - What We Offer To You*/
 
 /* excellence */
+
 .div1-excellence {
     display: flex;
 }
@@ -506,6 +508,7 @@ section {
 /* /excellence */
 
 /* gallery */
+
 .ourgallery {
     margin: 0 auto;
     padding-top: 120px;
@@ -532,6 +535,7 @@ section {
 .og-i-row1,
 .og-i-row2 {padding-right: 10px;}
 .og-i-rowTop {padding-bottom: 6px;}
+
 /* ./gallery */
 
 /* What do they say about us */
@@ -567,6 +571,7 @@ section {
 .div-h3-wdts {
     display: flex;
 }
+
 /* /divs and blocks */
 
 /* img, h3 and p */
@@ -642,6 +647,7 @@ section {
 /* /What do they say about us */
 
 /* Subscribe Mailing */
+
 .section--subscribeMailing {
     background-image: url(../imgs/subscribemailing/background.png);
     background-size: cover;
@@ -708,10 +714,8 @@ section {
     
     margin: 152px 100px 200px 0;
 }
+
 /* ./Subscribe Mailing */
-
-
-
 
 /* Interesting blog to read */
 
@@ -810,6 +814,7 @@ section {
 /* /Interesting blog to read */
 
 /* footer */
+
 .section--footer {
     background-image: url(../imgs/footer/background.png);
     background-size: cover;
@@ -858,4 +863,5 @@ section {
     text-decoration: none;
     cursor: pointer;
 }
+
 /* ./footer */
