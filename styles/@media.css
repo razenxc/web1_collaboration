@@ -13,11 +13,19 @@
         margin: 0 auto;
     }
 
+    .header-logo {
+        padding: 12px 218px 30px 15px;
+    }
+    
     .navbar-btns {
         display: none;
     }
 
     .intro-center {
         padding: 30px 18px 30px;
+    }
+
+    .ic-title {
+        text-align: left;
     }
 }
