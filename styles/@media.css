@@ -28,4 +28,8 @@
     .ic-title {
         text-align: left;
     }
+
+    .ic-btns {
+        padding-top: 94px;
+    }
 }
