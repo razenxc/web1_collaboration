@@ -1,3 +1,23 @@
-@media (max-width: px) {
+@media (max-width: 412px) {
+    .intro,
+    .div-aboutus,
+    .kind-of-plants,
+    .what-we-offer,
+    .div1-excellence,
+    .ourgallery,
+    .wdts,
+    .subscribeMailing,
+    .ibtr,
+    .footer {
+        width: 412px;
+        margin: 0 auto;
+    }
 
+    .navbar-btns {
+        display: none;
+    }
+
+    .intro-center {
+        padding: 30px 18px 30px;
+    }
 }
