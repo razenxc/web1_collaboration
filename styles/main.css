@@ -152,6 +152,7 @@ section {
 .aboutus {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* text */
