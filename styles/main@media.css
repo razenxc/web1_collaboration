@@ -22,14 +22,29 @@
     }
 
     .intro-center {
-        padding: 30px 18px 30px;
+        padding: 0 24px 82px;
     }
 
     .ic-title {
         text-align: left;
+        padding-bottom: 30px;
+    }
+
+    .ic-subtitle {
+        padding-bottom: 83px;
     }
 
     .ic-btns {
-        padding-top: 94px;
+        
+    }
+
+    .icb-booknow {
+        width: 164px;
+        height: 41px;
+    }
+
+    .icb-watchvideo {
+        width: 164px;
+        height: 41px;
     }
 }
