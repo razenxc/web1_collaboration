@@ -13,6 +13,7 @@
         margin: 0 auto;
     }
 
+    /* Intro */
     .header-logo {
         padding: 12px 218px 30px 15px;
     }
@@ -34,10 +35,6 @@
         padding-bottom: 83px;
     }
 
-    .ic-btns {
-        
-    }
-
     .icb-booknow {
         width: 164px;
         height: 41px;
@@ -46,5 +43,11 @@
     .icb-watchvideo {
         width: 164px;
         height: 41px;
+    }
+
+    /* About Us */
+    .choose-aboutus {
+        padding: 34px 24px 13px;
+
     }
 }

@@ -157,16 +157,6 @@ section {
 
 /* text */
 
-.text-aboutus{
-    font-size: 18px;
-    line-height: 27px;
-    opacity: 0.8;
-    font-family: 'Raleway';
-
-    padding-right: 120px;
-    padding-top: 124px;
-}
-
 .choose-aboutus {
     color: #285A43;
     width: 480px;
@@ -178,6 +168,16 @@ section {
     font-weight: 700;
 
     padding-left: 120px;
+    padding-top: 124px;
+}
+
+.text-aboutus{
+    font-size: 18px;
+    line-height: 27px;
+    opacity: 0.8;
+    font-family: 'Raleway';
+
+    padding-right: 120px;
     padding-top: 124px;
 }
 
